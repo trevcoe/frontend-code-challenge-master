@@ -1,10 +1,14 @@
+{% extends "index.html" %}
+{% block content %}
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset=utf-8>
-  <title>Yodlr Admin Page</title>
+      <title>Yodlr Admin Page</title>
 </head>
-<body>
-  List user data here
+  <body>
+    User data: 
+    <a>{{ users.data }}</a>
 </body>
 </html>
+{% endblock %}
